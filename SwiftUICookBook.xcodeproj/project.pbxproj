@@ -23,6 +23,15 @@
 		8C9E82A92B925B790023EEB3 /* TaskInfoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E82A82B925B790023EEB3 /* TaskInfoExtension.swift */; };
 		8C9E82AB2B925C6C0023EEB3 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E82AA2B925C6C0023EEB3 /* TaskListView.swift */; };
 		8C9E82AD2B925CDE0023EEB3 /* TaskInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E82AC2B925CDE0023EEB3 /* TaskInfoView.swift */; };
+		8C9E82B52B9265DD0023EEB3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9E82B42B9265DD0023EEB3 /* WidgetKit.framework */; };
+		8C9E82B72B9265DD0023EEB3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9E82B62B9265DD0023EEB3 /* SwiftUI.framework */; };
+		8C9E82BA2B9265DD0023EEB3 /* ToDoWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E82B92B9265DD0023EEB3 /* ToDoWidgetBundle.swift */; };
+		8C9E82BC2B9265DD0023EEB3 /* ToDoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E82BB2B9265DD0023EEB3 /* ToDoWidget.swift */; };
+		8C9E82BE2B9265E00023EEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E82BD2B9265E00023EEB3 /* Assets.xcassets */; };
+		8C9E82C22B9265E00023EEB3 /* ToDoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C9E82B22B9265DD0023EEB3 /* ToDoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C9E82C72B9267470023EEB3 /* TaskInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E82A42B925ADB0023EEB3 /* TaskInfo.swift */; };
+		8C9E82C82B9269870023EEB3 /* TaskInfoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E82A82B925B790023EEB3 /* TaskInfoExtension.swift */; };
+		8C9E82C92B92698F0023EEB3 /* TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E82A62B925B240023EEB3 /* TaskPriority.swift */; };
 		8CB835972B8E30C400DD1EFC /* SwiftUICookBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB835962B8E30C400DD1EFC /* SwiftUICookBookApp.swift */; };
 		8CB835992B8E30C400DD1EFC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB835982B8E30C400DD1EFC /* MainView.swift */; };
 		8CB8359B2B8E30C700DD1EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB8359A2B8E30C700DD1EFC /* Assets.xcassets */; };
@@ -97,6 +106,30 @@
 		8CB8366B2B91248600DD1EFC /* SearchableLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8366A2B91248600DD1EFC /* SearchableLists.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8C9E82C02B9265E00023EEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB8358B2B8E30C400DD1EFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C9E82B12B9265DD0023EEB3;
+			remoteInfo = ToDoWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C9E82C62B9265E00023EEB3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8C9E82C22B9265E00023EEB3 /* ToDoWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		8C9E82882B9225CB0023EEB3 /* RunLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLabelView.swift; sourceTree = "<group>"; };
 		8C9E82902B922BF80023EEB3 /* MyLazyStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLazyStacksView.swift; sourceTree = "<group>"; };
@@ -114,6 +147,13 @@
 		8C9E82A82B925B790023EEB3 /* TaskInfoExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInfoExtension.swift; sourceTree = "<group>"; };
 		8C9E82AA2B925C6C0023EEB3 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		8C9E82AC2B925CDE0023EEB3 /* TaskInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInfoView.swift; sourceTree = "<group>"; };
+		8C9E82B22B9265DD0023EEB3 /* ToDoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ToDoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9E82B42B9265DD0023EEB3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8C9E82B62B9265DD0023EEB3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8C9E82B92B9265DD0023EEB3 /* ToDoWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoWidgetBundle.swift; sourceTree = "<group>"; };
+		8C9E82BB2B9265DD0023EEB3 /* ToDoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoWidget.swift; sourceTree = "<group>"; };
+		8C9E82BD2B9265E00023EEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C9E82BF2B9265E00023EEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB835932B8E30C400DD1EFC /* SwiftUICookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICookBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB835962B8E30C400DD1EFC /* SwiftUICookBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICookBookApp.swift; sourceTree = "<group>"; };
 		8CB835982B8E30C400DD1EFC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -190,6 +230,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C9E82AF2B9265DD0023EEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9E82B72B9265DD0023EEB3 /* SwiftUI.framework in Frameworks */,
+				8C9E82B52B9265DD0023EEB3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CB835902B8E30C400DD1EFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,10 +300,32 @@
 			path = CreatingSwiftUIWidgets;
 			sourceTree = "<group>";
 		};
+		8C9E82B32B9265DD0023EEB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C9E82B42B9265DD0023EEB3 /* WidgetKit.framework */,
+				8C9E82B62B9265DD0023EEB3 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C9E82B82B9265DD0023EEB3 /* ToDoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8C9E82B92B9265DD0023EEB3 /* ToDoWidgetBundle.swift */,
+				8C9E82BB2B9265DD0023EEB3 /* ToDoWidget.swift */,
+				8C9E82BD2B9265E00023EEB3 /* Assets.xcassets */,
+				8C9E82BF2B9265E00023EEB3 /* Info.plist */,
+			);
+			path = ToDoWidget;
+			sourceTree = "<group>";
+		};
 		8CB8358A2B8E30C400DD1EFC = {
 			isa = PBXGroup;
 			children = (
 				8CB835952B8E30C400DD1EFC /* SwiftUICookBook */,
+				8C9E82B82B9265DD0023EEB3 /* ToDoWidget */,
+				8C9E82B32B9265DD0023EEB3 /* Frameworks */,
 				8CB835942B8E30C400DD1EFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -263,6 +334,7 @@
 			isa = PBXGroup;
 			children = (
 				8CB835932B8E30C400DD1EFC /* SwiftUICookBook.app */,
+				8C9E82B22B9265DD0023EEB3 /* ToDoWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -810,6 +882,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C9E82B12B9265DD0023EEB3 /* ToDoWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9E82C32B9265E00023EEB3 /* Build configuration list for PBXNativeTarget "ToDoWidgetExtension" */;
+			buildPhases = (
+				8C9E82AE2B9265DD0023EEB3 /* Sources */,
+				8C9E82AF2B9265DD0023EEB3 /* Frameworks */,
+				8C9E82B02B9265DD0023EEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoWidgetExtension;
+			productName = ToDoWidgetExtension;
+			productReference = 8C9E82B22B9265DD0023EEB3 /* ToDoWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8CB835922B8E30C400DD1EFC /* SwiftUICookBook */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CB835A12B8E30C700DD1EFC /* Build configuration list for PBXNativeTarget "SwiftUICookBook" */;
@@ -817,10 +906,12 @@
 				8CB8358F2B8E30C400DD1EFC /* Sources */,
 				8CB835902B8E30C400DD1EFC /* Frameworks */,
 				8CB835912B8E30C400DD1EFC /* Resources */,
+				8C9E82C62B9265E00023EEB3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8C9E82C12B9265E00023EEB3 /* PBXTargetDependency */,
 			);
 			name = SwiftUICookBook;
 			productName = SwiftUICookBook;
@@ -837,6 +928,9 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					8C9E82B12B9265DD0023EEB3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					8CB835922B8E30C400DD1EFC = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -856,11 +950,20 @@
 			projectRoot = "";
 			targets = (
 				8CB835922B8E30C400DD1EFC /* SwiftUICookBook */,
+				8C9E82B12B9265DD0023EEB3 /* ToDoWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8C9E82B02B9265DD0023EEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9E82BE2B9265E00023EEB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CB835912B8E30C400DD1EFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -873,6 +976,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C9E82AE2B9265DD0023EEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9E82C92B92698F0023EEB3 /* TaskPriority.swift in Sources */,
+				8C9E82BA2B9265DD0023EEB3 /* ToDoWidgetBundle.swift in Sources */,
+				8C9E82C72B9267470023EEB3 /* TaskInfo.swift in Sources */,
+				8C9E82C82B9269870023EEB3 /* TaskInfoExtension.swift in Sources */,
+				8C9E82BC2B9265DD0023EEB3 /* ToDoWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CB8358F2B8E30C400DD1EFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -968,7 +1083,69 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8C9E82C12B9265E00023EEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C9E82B12B9265DD0023EEB3 /* ToDoWidgetExtension */;
+			targetProxy = 8C9E82C02B9265E00023EEB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		8C9E82C42B9265E00023EEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD3P835Y9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToDoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ToDoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldnur.SwiftUICookBook.ToDoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C9E82C52B9265E00023EEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD3P835Y9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToDoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ToDoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldnur.SwiftUICookBook.ToDoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8CB8359F2B8E30C700DD1EFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1091,6 +1268,7 @@
 		8CB835A22B8E30C700DD1EFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -1123,6 +1301,7 @@
 		8CB835A32B8E30C700DD1EFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -1155,6 +1334,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C9E82C32B9265E00023EEB3 /* Build configuration list for PBXNativeTarget "ToDoWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9E82C42B9265E00023EEB3 /* Debug */,
+				8C9E82C52B9265E00023EEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8CB8358E2B8E30C400DD1EFC /* Build configuration list for PBXProject "SwiftUICookBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

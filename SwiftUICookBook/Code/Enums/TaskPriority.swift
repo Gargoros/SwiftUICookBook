@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum TaskPriority {
+enum TaskPriority: Comparable {
     case high
     case medium
     case low
