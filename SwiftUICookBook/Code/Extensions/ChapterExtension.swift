@@ -22,49 +22,22 @@ extension Chapter {
             chapterNumber: 3,
             chapterName: "Exploring Advanced Components",
             recipe: SwiftUIRecipe.chapter3),
-//        Chapter(
-//            chapterNumber: 4,
-//            chapterName: "Viewing while Building with SwiftUI Preview in Xcode 15",
-//            recipe: [
-//                "Using the live preview canvas in Xcode15",
-//                "Previewing a view in a NavigationStack",
-//                "Previewing a view with different traits",
-//                "Previewing a view on different devices",
-//                "Using previews in UIKit",
-//                "Using mock data for previews"
-//            ]),
-//        Chapter(
-//            chapterNumber: 5,
-//            chapterName: "Creating New Components and Grouping Views with Container Views",
-//            recipe: [
-//                "Showing and hiding sections in forms",
-//                "Disabling and enabling items in forms",
-//                "Filling out forms easily using Focus and Submit",
-//                "Creating multi-column lists with Table",
-//                "Using Grid, a powerful two-dimensional layou"
-//            ]),
-//        Chapter(
-//            chapterNumber: 6,
-//            chapterName: "Presenting Views Modally",
-//            recipe: [
-//                "Presenting alerts",
-//                "Adding actions to alert buttons",
-//                "Presenting confirmation dialogs",
-//                "Presenting new views using sheets and full-screen covers",
-//                "Displaying popovers",
-//                "Creating context menus"
-//            ]),
-//        Chapter(
-//            chapterNumber: 7,
-//            chapterName: "Navigation Containers",
-//            recipe: [
-//                "Simple navigation with NavigationStack",
-//                "Typed data-driven navigation with NavigationStack",
-//                "Untyped data-driven navigation with NavigationStack",
-//                "Multi-column navigation with NavigationSplitView",
-//                "Navigating between multiple views with TabView",
-//                "Programmatically switching tabs on a TabView"
-//            ]),
+        Chapter(
+            chapterNumber: 4,
+            chapterName: "Viewing while Building with SwiftUI Preview in Xcode 15",
+            recipe: SwiftUIRecipe.chapter4),
+        Chapter(
+            chapterNumber: 5,
+            chapterName: "Creating New Components and Grouping Views with Container Views",
+            recipe: SwiftUIRecipe.chapter5),
+        Chapter(
+            chapterNumber: 6,
+            chapterName: "Presenting Views Modally",
+            recipe: SwiftUIRecipe.chapter6),
+        Chapter(
+            chapterNumber: 7,
+            chapterName: "Navigation Containers",
+            recipe: SwiftUIRecipe.chapter7),
 //        Chapter(
 //            chapterNumber: 8,
 //            chapterName: "Drawing with SwiftUI",

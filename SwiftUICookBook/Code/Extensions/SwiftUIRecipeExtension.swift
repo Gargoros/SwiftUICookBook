@@ -195,5 +195,136 @@ extension SwiftUIRecipe {
             view: TodoList())
     ]
     
+    static let chapter4: [SwiftUIRecipe] = [
+        
+        SwiftUIRecipe(
+            recipeChapterName: "Using the live preview canvas in Xcode15",
+            recipeName: "CanvasPreview",
+            recipeHowItWorks: ChapterFourConstant.canvasPreviewHowItWorks,
+            recipeCode: ChapterFourConstant.canvasPreviewCode,
+            view: CanvasPreview()),
+        SwiftUIRecipe(
+            recipeChapterName: "Previewing a view in a NavigationStack",
+            recipeName: "PreviewingInNavigationStack",
+            recipeHowItWorks: ChapterFourConstant.previewingInNavigationStackHowItWorks,
+            recipeCode: ChapterFourConstant.previewingInNavigationStackCode,
+            view: PreviewingInNavigationStack()),
+        SwiftUIRecipe(
+            recipeChapterName: "Previewing a view with different traits",
+            recipeName: "PreviewingWithTraits",
+            recipeHowItWorks: ChapterFourConstant.previewingWithTraitsHowItWorks,
+            recipeCode: ChapterFourConstant.previewingWithTraitsCode,
+            view: PreviewingWithTraits()),
+        SwiftUIRecipe(
+            recipeChapterName: "Previewing a view on different devices",
+            recipeName: "PreviewOnDifferentDevices",
+            recipeHowItWorks: ChapterFourConstant.previewOnDifferentDevicesHowItWorks,
+            recipeCode: ChapterFourConstant.previewOnDifferentDevicesCode,
+            view: PreviewOnDifferentDevices()),
+        SwiftUIRecipe(
+            recipeChapterName: "Using previews in UIKit",
+            recipeName: "UIKitPreview",
+            recipeHowItWorks: ChapterFourConstant.uiKitPreviewHowItWorks,
+            recipeCode: ChapterFourConstant.uiKitPreviewCode,
+            view: MyUIKitPreview()),
+        SwiftUIRecipe(
+            recipeChapterName: "Using mock data for previews",
+            recipeName: "UsingMockDataForPreviews",
+            recipeHowItWorks: ChapterFourConstant.usingMockDataForPreviewsHowItWorks,
+            recipeCode: ChapterFourConstant.usingMockDataForPreviewsCode,
+            view: UsingMockDataForPreviews())
+    ]
+    
+    static let chapter5: [SwiftUIRecipe] = [
+        
+        SwiftUIRecipe(
+            recipeChapterName: "Showing and hiding sections in forms",
+            recipeName: "SignUp",
+            recipeHowItWorks: ChapterFiveConstant.signUpHowItWorks,
+            recipeCode: ChapterFiveConstant.signUpCode,
+            view: SignUp()),
+        SwiftUIRecipe(
+            recipeChapterName: "Disabling and enabling items in forms",
+            recipeName: "FormFieldDisable",
+            recipeHowItWorks: ChapterFiveConstant.formFieldDisableHowItWorks,
+            recipeCode: ChapterFiveConstant.formFieldDisableCode,
+            view: FormFieldDisable()),
+        SwiftUIRecipe(
+            recipeChapterName: "Filling out forms easily using Focus and Submit",
+            recipeName: "FocusAndSubmit",
+            recipeHowItWorks: ChapterFiveConstant.focusAndSubmitHowItWorks,
+            recipeCode: ChapterFiveConstant.focusAndSubmitCode,
+            view: FocusAndSubmit()),
+        SwiftUIRecipe(
+            recipeChapterName: "Creating multi-column lists with Table",
+            recipeName: "MultiColumnTable",
+            recipeHowItWorks: ChapterFiveConstant.multiColumnTableHowItWorks,
+            recipeCode: ChapterFiveConstant.multiColumnTableCode,
+            view: MultiColumnTable()),
+        SwiftUIRecipe(
+            recipeChapterName: "Using Grid, a powerful two-dimensional layout",
+            recipeName: "TwoDimensionalLayout",
+            recipeHowItWorks: ChapterFiveConstant.twoDimensionalLayoutHowItWorks,
+            recipeCode: ChapterFiveConstant.twoDimensionalLayoutCode,
+            view: TwoDimensionalLayout()),
+    ]
+    
+    static let chapter6: [SwiftUIRecipe] = [
+        
+        SwiftUIRecipe(
+            recipeChapterName: "Presenting alerts",
+            recipeName: "PresentingAlerts",
+            recipeHowItWorks: ChapterSixConstant.presentingAlertsHowItWorks,
+            recipeCode: ChapterSixConstant.presentingAlertsCode,
+            view: PresentingAlerts()),
+        SwiftUIRecipe(
+            recipeChapterName: "Adding actions to alert buttons",
+            recipeName: "AlertsWithActions",
+            recipeHowItWorks: ChapterSixConstant.alertsWithActionsHowItWorks,
+            recipeCode: ChapterSixConstant.alertsWithActionsCode,
+            view: AlertsWithActions()),
+        SwiftUIRecipe(
+            recipeChapterName: "Presenting confirmation dialogs",
+            recipeName: "PresentingConfirmationDialogs",
+            recipeHowItWorks: ChapterSixConstant.presentingConfirmationDialogsHowItWorks,
+            recipeCode: ChapterSixConstant.presentingConfirmationDialogsCode,
+            view: PresentingConfirmationDialogs()),
+        SwiftUIRecipe(
+            recipeChapterName: "Presenting new views using sheets and full-screen covers",
+            recipeName: "PresentingSheets",
+            recipeHowItWorks: ChapterSixConstant.presentingSheetsHowItWorks,
+            recipeCode: ChapterSixConstant.presentingSheetsCode,
+            view: PresentingSheets()),
+        SwiftUIRecipe(
+            recipeChapterName: "Displaying popovers",
+            recipeName: "DisplayingPopovers",
+            recipeHowItWorks: ChapterSixConstant.displayingPopoversHowItWorks,
+            recipeCode: ChapterSixConstant.displayingPopoversCode,
+            view: DisplayingPopovers()),
+        SwiftUIRecipe(
+            recipeChapterName: "Creating context menus",
+            recipeName: "DisplayingContextMenus",
+            recipeHowItWorks: ChapterSixConstant.displayingContextMenusHowItWorks,
+            recipeCode: ChapterSixConstant.displayingContextMenusCode,
+            view: DisplayingContextMenus())
+    ]
+    
+    static let chapter7: [SwiftUIRecipe] = [
+        
+        SwiftUIRecipe(
+            recipeChapterName: "Simple navigation with NavigationStack",
+            recipeName: "SimpleNavigation",
+            recipeHowItWorks: ChapterSevenConstant.simpleNavigationHowItWorks,
+            recipeCode: ChapterSevenConstant.simpleNavigationCode,
+            view: SimpleNavigation()),
+//        SwiftUIRecipe(
+//            recipeChapterName: "Typed data-driven navigation with NavigationStack",
+//            recipeName: "ModernNavigation",
+//            recipeHowItWorks: ChapterSevenConstant.modernNavigationHowItWorks,
+//            recipeCode: ChapterSevenConstant.modernNavigationCode,
+//            view: ModernNavigation())
+
+    ]
+    
     
 }

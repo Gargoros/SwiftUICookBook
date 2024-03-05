@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RecipeTabView: View {
 	//MARK: - Variables
+	@EnvironmentObject var navigation: NavigationManager
 	let recipe: SwiftUIRecipe
 	//@State var selectedTab = 0
 	
@@ -41,6 +42,14 @@ struct RecipeTabView: View {
 				}
 				//.tag(2)
 			}
+			.toolbar {
+				Button {
+					navigation.popToRoot()
+				} label: {
+					Image(systemName: "house")
+				}
+
+			}
 			.tint(Color.red)
 		}
 	}
@@ -48,4 +57,5 @@ struct RecipeTabView: View {
 
 #Preview {
 	RecipeTabView(recipe: SwiftUIRecipe.chapter1[0])
+		.environmentObject(NavigationManager())
 }

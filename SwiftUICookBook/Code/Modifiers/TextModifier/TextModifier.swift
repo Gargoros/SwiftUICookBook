@@ -24,3 +24,13 @@ struct TextBookModifier: ViewModifier{
             .multilineTextAlignment(.leading)
     }
 }
+
+struct TextFieldModifier: ViewModifier{
+    
+    func body(content: Content) -> some View {
+        content
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            .font(.title2)
+            .tint(.black)
+    }
+}

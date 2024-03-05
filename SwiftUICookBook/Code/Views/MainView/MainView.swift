@@ -11,12 +11,13 @@ struct MainView: View {
     //MARK: - Variables
     
     let bookChapter: [Chapter] = Chapter.bookChapters
-    @State private var path = NavigationPath()
+    
+    @StateObject var path = NavigationManager()
     
     //MARK: - Views
     var body: some View {
         ZStack {
-            NavigationStack(path: $path) {
+            NavigationStack(path: $path.path) {
                 List{
                     ForEach(bookChapter, id: \.chapterName) {chapter in
                         NavigationLink(value: chapter) {
@@ -35,8 +36,10 @@ struct MainView: View {
                 .navigationDestination(for: SwiftUIRecipe.self) {recipe in
                     RecipeTabView(recipe: recipe)
                 }
+
             }
             .tint(.black)
+            .environmentObject(path)
             
         }
     }
